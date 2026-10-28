@@ -1,0 +1,69 @@
+{
+  "_catamaran-400-normal-CP4lqXcO.woff2": {
+    "file": "assets/catamaran-400-normal-CP4lqXcO.woff2",
+    "src": "_catamaran-400-normal-CP4lqXcO.woff2"
+  },
+  "_catamaran-400-normal-fW1-sONp.woff": {
+    "file": "assets/catamaran-400-normal-fW1-sONp.woff",
+    "src": "_catamaran-400-normal-fW1-sONp.woff"
+  },
+  "_catamaran-500-normal-Bs7YVSwx.woff": {
+    "file": "assets/catamaran-500-normal-Bs7YVSwx.woff",
+    "src": "_catamaran-500-normal-Bs7YVSwx.woff"
+  },
+  "_catamaran-500-normal-DvGr2DEW.woff2": {
+    "file": "assets/catamaran-500-normal-DvGr2DEW.woff2",
+    "src": "_catamaran-500-normal-DvGr2DEW.woff2"
+  },
+  "_catamaran-600-normal-DkaNHLHS.woff": {
+    "file": "assets/catamaran-600-normal-DkaNHLHS.woff",
+    "src": "_catamaran-600-normal-DkaNHLHS.woff"
+  },
+  "_catamaran-600-normal-jLINf0ug.woff2": {
+    "file": "assets/catamaran-600-normal-jLINf0ug.woff2",
+    "src": "_catamaran-600-normal-jLINf0ug.woff2"
+  },
+  "_catamaran-700-normal-BCZNGiIV.woff": {
+    "file": "assets/catamaran-700-normal-BCZNGiIV.woff",
+    "src": "_catamaran-700-normal-BCZNGiIV.woff"
+  },
+  "_catamaran-700-normal-DhQ6I_P8.woff2": {
+    "file": "assets/catamaran-700-normal-DhQ6I_P8.woff2",
+    "src": "_catamaran-700-normal-DhQ6I_P8.woff2"
+  },
+  "_catamaran-800-normal-C35mvymO.woff2": {
+    "file": "assets/catamaran-800-normal-C35mvymO.woff2",
+    "src": "_catamaran-800-normal-C35mvymO.woff2"
+  },
+  "_catamaran-800-normal-FwOuPVMh.woff": {
+    "file": "assets/catamaran-800-normal-FwOuPVMh.woff",
+    "src": "_catamaran-800-normal-FwOuPVMh.woff"
+  },
+  "_catamaran-900-normal-DXvdLgXT.woff2": {
+    "file": "assets/catamaran-900-normal-DXvdLgXT.woff2",
+    "src": "_catamaran-900-normal-DXvdLgXT.woff2"
+  },
+  "_catamaran-900-normal-gOSUku8L.woff": {
+    "file": "assets/catamaran-900-normal-gOSUku8L.woff",
+    "src": "_catamaran-900-normal-gOSUku8L.woff"
+  },
+  "_fonts-CdKxkD3B.css": {
+    "file": "assets/fonts-CdKxkD3B.css",
+    "src": "_fonts-CdKxkD3B.css"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-DExCQb44.css",
+    "name": "app",
+    "names": [
+      "app.css"
+    ],
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BUPFcdSx.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
