@@ -5,7 +5,7 @@
             ['label' => 'About Us', 'href' => '#about'],
             ['label' => 'Our Activity', 'href' => '#activities'],
             ['label' => 'Why Choose Us', 'href' => '#why-choose-us'],
-            ['label' => 'Testimonials', 'href' => '#testimonials'],
+            // ['label' => 'Testimonials', 'href' => '#testimonials'], // disembunyikan sementara
         ]],
         ['label' => 'Program', 'section' => 'programs', 'sections' => 'programs,curriculum', 'children' => [
             ['label' => 'Academic Program', 'href' => '#programs'],

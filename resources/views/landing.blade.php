@@ -30,7 +30,8 @@
             @include('landing.features')
             @include('landing.curriculum')
             @include('landing.facilities')
-            @include('landing.testimonials')
+            {{-- Testimonials disembunyikan sementara sampai datanya lengkap. Hapus komentar ini untuk menampilkannya lagi. --}}
+            {{-- @include('landing.testimonials') --}}
             @include('landing.visit')
             @include('landing.faq')
             @include('landing.contact')
