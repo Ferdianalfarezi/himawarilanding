@@ -36,7 +36,7 @@
     <div class="container-x relative grid items-center gap-14 lg:grid-cols-2">
         <div class="relative z-10">
             <span class="eyebrow" data-reveal="down">
-                <x-deco.heart class="size-4" color="#FAA51A" /> Islamic Montessori Preschool
+                <x-deco.heart class="size-4" color="#FAA51A" /> Islamic Montessori Preschool &amp; Kindergarten
             </span>
 
             <h1 class="mt-6 text-5xl text-leaf sm:text-6xl lg:text-7xl" data-reveal="up" data-delay="100">
