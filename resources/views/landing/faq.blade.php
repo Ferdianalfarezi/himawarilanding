@@ -7,7 +7,7 @@
     </div>
 
     <div class="container-x grid gap-14 lg:grid-cols-[4fr_7fr]">
-        <div>
+        <div class="lg:flex lg:flex-col lg:items-start">
             <span class="eyebrow" data-reveal="up">FAQ</span>
             <h2 class="mt-5 text-4xl text-leaf sm:text-5xl" data-reveal="up" data-delay="100">
                 {{ __('Pertanyaan yang') }} <span class="text-sun">{{ __('sering ditanyakan') }}</span>
@@ -15,9 +15,17 @@
             <p class="mt-5 text-lg text-ink/75" data-reveal="up" data-delay="200">
                 {{ __('Belum menemukan jawabannya? Tanyakan langsung ke tim kami lewat WhatsApp.') }}
             </p>
-            <a href="{{ config('school.contact.whatsapp') }}" target="_blank" rel="noopener" class="btn-sun mt-8" data-reveal="up" data-delay="300">
-                <x-icon name="chat" class="size-5" /> {{ __('Tanya via WhatsApp') }}
-            </a>
+            {{-- Maskot detektif rata kanan; balon chat-nya adalah tombol WhatsApp --}}
+            <div class="mt-10 flex w-full items-start justify-end gap-1 lg:mt-auto lg:pt-10" data-reveal="up" data-delay="300">
+                <a href="{{ config('school.contact.whatsapp') }}" target="_blank" rel="noopener"
+                   class="group relative mt-8 inline-flex shrink-0 items-center gap-2 rounded-3xl rounded-br-md bg-sun px-4 py-3 text-sm font-bold whitespace-nowrap sm:px-5 sm:py-3.5 sm:text-base lg:px-4 lg:py-3 lg:text-sm xl:px-5 xl:py-3.5 xl:text-base text-white shadow-lg shadow-sun/30 transition duration-300 hover:-translate-y-0.5 hover:bg-sun-dark">
+                    <x-icon name="whatsapp" class="size-5" /> {{ __('Tanya via WhatsApp') }}
+                    {{-- ekor balon mengarah ke detektif --}}
+                    <span class="absolute -right-2 bottom-2 size-4 rotate-45 rounded-sm bg-sun transition duration-300 group-hover:bg-sun-dark" aria-hidden="true"></span>
+                </a>
+                <img src="{{ asset('images/detective-web.png') }}" alt="" aria-hidden="true" draggable="false"
+                     class="-mr-4 w-36 shrink-0 origin-bottom sm:-mr-6 lg:-mr-14 transition-[rotate] duration-500 ease-out hover:rotate-[8deg] sm:w-64 lg:w-48 xl:w-64" loading="lazy">
+            </div>
         </div>
 
         <div class="space-y-4" data-stagger="100">
